@@ -1,7 +1,8 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
-import slides from '../data';
-const App = () => {
+// import slides from '../data';
+
+const App = ({slides}) => {
   const [count,setCount] = useState(0);
   const [next, setNext] = useState(false);
   const [prev, setPrev] = useState(true);
